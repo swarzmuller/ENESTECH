@@ -1,0 +1,438 @@
+@font-face {
+    font-family: Roboto Thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+   }
+
+@font-face {
+    font-family: Roboto Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+   }
+
+@font-face {
+    font-family: Roboto Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+   }
+
+@font-face {
+    font-family: Raleway Extra Bold;
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+   }
+
+/*=========================================HEDER=========================================*/
+body{
+	color: #ffffff;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	list-style-type: none;
+}
+
+header{
+	width: 100%;
+	background: #171a1e;
+	-webkit-box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	}
+
+.logo{
+	display: inline-block;
+	padding: 24px 100px 24px 24px;
+	border-right: 1px solid #232529;
+}
+
+.time{
+	display: inline-block;
+    padding: 16px;
+    font-family: Roboto Bold;
+    font-size: 14px;
+    color: #a9a9aa;
+    line-height: 0.4;
+}
+
+.time img{
+	display: inline-block;
+}
+
+.time p{
+	display: inline-block;
+}
+
+.time p span {
+	font-size: 40px;
+	font-family: Roboto Thin;
+	margin: 0px 10px;
+	color: #ffffff;
+	
+}
+
+.login-name{
+	float: right;
+	padding: 26px 24px;
+	font-size: 16px;
+	border-right: 1px solid #232529;
+	border-left: 1px solid #232529;
+	font-family: Roboto Regular;
+	color: #a9a9aa;
+}
+
+.log-out{
+	float: right;
+	padding: 33px 24px;
+}
+
+.log-out a{
+	font-size: 24px;
+	color: #ffffff;
+}
+
+/*=========================================SECTION=========================================*/
+
+section{
+	background: #eff0f0;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+h1{
+	font-size: 36px;
+	font-family: Roboto Bold;
+	-webkit-box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	text-align: center;
+	color: #171a1e;
+	padding: 0px 0px 15px;
+    background: #ffffff;
+    margin: 15px 0px 0px;
+}
+
+h2{
+	font-size: 32px;
+	font-family: Roboto Bold;
+	color: #171a1e;
+	padding: 15px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.block-content{
+	display: inline-block;
+	background: #ffffff;
+	padding: 30px;
+	text-align: left;
+	-webkit-box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	box-shadow: 0px 9px 23px -9px rgba(0,0,0,0.6);
+	width: 325px;
+	margin: 10px 10px;
+    vertical-align: middle;
+    height: 300px;
+}
+
+
+.down-inst{
+	margin: 10px 0px;
+}
+
+.down-inst a{
+	font-size: 16px;
+	font-family: Roboto Bold;
+	color: #9c3e32;
+	margin: 10px 0px;
+}
+
+.down-inst p{
+	font-size: 32px;
+	font-family: Roboto Bold;
+	color: #232529;
+	margin: 10px 0px;
+	line-height: 0.7;
+}
+
+.down-inst p span{
+	font-size: 12px;
+	font-family: Roboto Regular;
+	color: #5f6063;
+}
+
+.key {
+	display: table-cell;
+    vertical-align: bottom;
+    height: 181px;
+}
+
+.key p{
+	font-size: 14px;
+	font-family: Roboto Bold;
+	color: #232529;
+}
+
+.key a{
+	font-size: 20px;
+	font-family: Raleway Extra Bold;
+	color: #9c3e32;
+}
+
+.key a i{
+	margin: 0px 10px;
+}
+
+a.tooltip {
+    position: relative;
+    display: inline-block;
+     color: #5f6063;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;;
+    background-color: black;
+    font-size: 12px;
+	font-family: Roboto Bold;
+    text-align: center;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -o-border-radius: 28px;
+    padding: 19px 36px;
+    position: absolute;
+    z-index: 1;
+    bottom: 135%;
+    left: -165%;
+    margin-left: -60px;
+    color: #fff;
+    -webkit-box-shadow: 0px 0px 88px -14px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 88px -14px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 88px -14px rgba(0,0,0,0.75);
+	}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 99%;
+    left: 83%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*=========================================MQ=========================================*/
+
+@media screen and (max-width: 1200px) {
+	.block-content {
+	    width: 25%;
+
+	}
+}	
+
+@media screen and (max-width: 1008px) {
+    
+    .logo{
+		padding: 24px;
+	}
+
+	.block-content {
+	    display: block;
+	    margin: 0 auto;
+	    margin-bottom: 20px;
+	    margin-top: 20px;
+	    width: 90%;
+	    height: auto;
+	}
+
+	.accept, .down-inst, .key{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.accept{
+		text-align: center;
+		margin-right: 23px;
+	}
+
+
+	.key{
+		float: right;
+		height: auto;
+		padding: 33px 0px;
+	}
+
+	.key p {
+    	display: inline-block;
+    	margin-right: 10px;
+	}
+
+	.key a {
+    	display: inline-block;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.log-out {
+	    padding: 33px 9px;
+	}
+
+	.login-name {
+    	padding: 27px 9px;
+	}
+
+	.time p span {
+    	margin: 0px 2px;
+    }
+
+    .time {
+    	padding: 16px 4px;
+	}
+	.logo {
+    	padding: 24px 9px;
+	}
+
+	h2 {
+	    padding: 15px 0px;
+	}
+
+	.block-content {
+    	padding: 15px;
+	}
+
+	.key p {
+		margin-right: 5px;
+		font-size: 10px;
+	}
+
+	.key a {
+    	font-size: 16px;
+	}
+
+	.down-inst p {
+    	font-size: 24px;
+	}
+
+	.down-inst a {
+    	font-size: 12px;
+	}
+	.accept {
+    	margin: 0px 10px 0px 10px;
+	}
+
+	.tooltip .tooltiptext {
+    	font-size: 10px;
+	}
+
+}
+
+
+@media screen and (max-width: 592px) {
+	
+	.time {
+    	padding: 10px 4px;
+	}
+
+	.time p {
+    	font-size: 12px;
+	}	
+
+	.time p span {
+	    margin: 0px 0px;
+	    display: block;
+	    line-height: 1.6;
+	    font-size: 20px;
+	}
+
+	h2 {
+	    font-size: 24px;
+	}
+
+	.key {
+    	padding: 0px;
+    	text-align: right;
+	}
+
+	.key p {
+		display: block; 
+		margin-right: 5px;
+		font-size: 10px;
+	}
+
+	.key a {
+    	font-size: 16px;
+	}
+
+	.tooltip{
+		margin: 33px 0px;
+	}
+
+	}
+
+@media screen and (max-width: 469px) {
+	
+	.logo a img{
+		width: 100%;
+	}
+	
+	.logo {
+	    padding: 23px 5px;
+	    width: 109px;
+	}
+
+	.time img {
+    	display: none;
+	}
+
+	.time p {
+    	font-size: 10px;
+    	font-family: Roboto Regular;
+	}
+
+	.time p strong {
+    	display: none;
+	}
+
+	.time p span {
+	    font-size: 10px;
+	}
+
+	.login-name {
+    	font-size: 10px;
+	}
+
+	.log-out a {
+    	font-size: 16px;
+	}
+
+	.key {
+	    padding: 0px;
+	    text-align: left;
+	    display: block;
+	    float: none;
+	    margin-left: 31px;
+	}
+
+	.accept {
+    	margin: 0px 4px 0px 0px;
+	}
+
+	.tooltip .tooltiptext{
+		right: -195%;
+   		left: 26%;
+	}
+
+	.tooltip .tooltiptext::after {
+		left: 28%;
+	}
+
+}
